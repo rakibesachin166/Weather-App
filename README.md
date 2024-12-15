@@ -20,7 +20,6 @@ Select Get From Vcs
 
 git clone https://github.com/rakibesachin166/Weather-App.git
 
-
 Install Dependencies:
 
 Ensure all dependencies are downloaded by syncing Gradle.
@@ -41,6 +40,11 @@ Troubleshooting
 If you encounter build errors, check the build.gradle files and Ndk Installed Check For cMake u have
 enable in Sdk Setup and download Ndk for configuration issues.
 For native build issues, ensure that CMake or NDK configurations are correctly set up.
+
+Api Key Security
+
+For security Purpose we have added the api key using NDK into the CPP file to allow only to the
+particular class can access the key 
 
 If the Api Key Get Expire Please check below website get new Api Key
 https://weatherstack.com/
